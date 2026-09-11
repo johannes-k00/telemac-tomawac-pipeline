@@ -59,7 +59,7 @@ The generated files can be used to impose a wave spectrum on the boundary in **T
 * **Output:** `extracted_timeseries_points_interpolatet_window.csv`
 
 ### Step 4: Generate 2D JONSWAP Boundary Spectrum (`.spe`)
-* **Prerequisite:** A dummy TOMAWAC spectrum file (dummy.spe) must be generated beforehand. It is used as a template for the SELAFIN mesh and header information.
+* **Prerequisite:** A dummy TOMAWAC spectrum file (dummy.spe) must be generated beforehand. It is created by running TOMAWAC for one timestep and only seeting the spectral resolution (NUMBER OF DIRECTIONS, MINIMAL FREQUENCY, FREQUENTIAL RATIO, NUMBER OF FREQUENCIES). It is used as a template for the SELAFIN mesh and header information.
 * **Input:** Interpolated time series CSV and a dummy TOMAWAC spectrum file (`dummy.spe`).
 * **Processing:**
   * Reads the processed wave time series for all boundary points.
