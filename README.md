@@ -96,7 +96,7 @@ The generated files can be used to impose a wave spectrum on the boundary in **T
 ## Note / Disclaimer
 
 > **Full disclosure:** I'm actually a total Python noob and don't really have a clue about coding... 
-> But somehow, through trial, error, willpower, the loss of my sanity (and a lot of magic), this pipeline actually works for me (hopefully)!
+> But somehow, through trial, error, willpower, the loss of my sanity, this pipeline works for me!
 
 ## Acknowledgements
 > Special thanks to Taoan from the OpenTelemac Forum, whose shared code and explanations on spectral boundary conditions were extremely helpful during the development of this workflow.
